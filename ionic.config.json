@@ -1,5 +1,15 @@
 {
   "name": "SaldoVoz",
-  "integrations": {},
-  "type": "ionic-angular"
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+
+  "proxies": [
+    {
+      "path": "/rest",
+      "proxyUrl": "http://201.73.146.245:8084/rest"
+    }
+  ]
 }
+
