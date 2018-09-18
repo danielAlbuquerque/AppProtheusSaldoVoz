@@ -15,7 +15,7 @@ export class HomePage {
 
   matches: String[];
   isRecording = false;
-  uri_api = 'http://201.73.146.245:8084/rest/SALDOPROD/';
+  uri_api = 'http://URL_AQUI/rest/SALDOPROD/';
 
   constructor(public navCtrl: NavController, private speechRecognition: SpeechRecognition, private cd: ChangeDetectorRef, private plt: Platform, private tts: TextToSpeech, private http: HttpClient) {
     
